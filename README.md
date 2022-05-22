@@ -11,7 +11,7 @@ First install Node.js >= 14 from [nodejs.org](https://nodejs.org/) then:
 
 **Getting Started**
 
-Edit the config.json file in the main directory. Make sure you have properly set your uthentication servers,
+Edit the config.json file in the main directory. Make sure you have properly set your authentication servers,
 otherwise it will not work.
 
 Then Run `node .` in shell

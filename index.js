@@ -16,7 +16,7 @@ bot.on('login', () => {
 })
 bot.once('spawn', () => {
     console.log(`Spawned in at ${bot.entity.position}`)
-    mineflayerViewer(bot, { port: 3007, firstPerson: true })
+    mineflayerViewer(bot, { port: config.viewerPort, firstPerson: true })
     const mcData = require('minecraft-data')(bot.version)
     const defaultMove = new Movements(bot, mcData)
     setInterval(() => {
